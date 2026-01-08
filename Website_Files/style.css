@@ -1,6 +1,29 @@
+/* For all pages */
 body {
   font-family: serif;
-  
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+header{
+    display: flex;
+    /* justify-content: space-between; */
+    
+    justify-content: center; /* Centers the text div horizontally */
+    align-items: center; 
+    position: relative;   
+}
+
+.logo {
+    /* For the div object holding the logo */
+    position: absolute;
+    left: 2vw; 
+    width: 5%;
+    height: auto;
+}
+#logo{
+    /*For the actual logo itself */
+    width: 100%;
+    height: auto;
 }
 
 .nav_main_content {
@@ -8,13 +31,13 @@ body {
 }
 
 .navbar {
-    /* background-color: rgba(11, 109, 11, 0.7); */
-    width: 30vw;
+    width: 20vw;
     height: 50vh;
+    /* box-sizing: border-box; */ /*https://www.w3schools.com/css/css_padding.asp */
 }
 
 .navbar ul{
-    width: 60%;
+    width: 40%;
     height: 100%;
     background-color: rgba(11, 109, 11, 0.7);
 
@@ -22,8 +45,39 @@ body {
 
 
 main {
-    width: 60vw;
+    width: 70vw;
 }
 header, footer {
     text-align: center;
+}
+
+h1, h2, h3, h4, h5, p{
+    color: #dbdbdb;
+}
+
+h1 {
+    font-size: calc(5vh + 1vw);
+}
+
+p{
+    font-size: calc(2vh + 1vw);
+}
+
+
+/* For service page */
+.services_provided{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+.service{
+    width: 25%;
+    /* height: 25%; */
+    
+}
+
+#debris_chute{
+    width: 112px;
+    height: 200px;
 }
