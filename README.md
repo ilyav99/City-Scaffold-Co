@@ -21,7 +21,7 @@ Website for City Scaffold Co., a scaffolding company in the Bay Area
 - About page should be the new index.html (Rename as "Home") (done)
     - relink pages (done)
 - underline all headings (services, about/home, contact us) (done)
-- About/Home page could use a new picture at the bottom of the description. 
+- About/Home page could use a new picture at the bottom of the description. (done, used a placeholder)
 - Services page: shrink the font of the services themselves. (done)
 - Contact Us Page: Bottom "extra footer" can eliminate "City Scaffold Co.", keep email and phone. (done)
 -   Move the email and phone to be in between text and images of staff. (done)

@@ -87,20 +87,28 @@ h2 {
     font-size: clamp(1.25rem, 4vh + 1vw, 2.5rem);
 }
 
-.contact_reach h3{
-    font-size: clamp(1rem, 3vh + 1vw, 1.5rem);
-}
 
-.contact_reach h4{
-    font-size: clamp(0.875rem, 2.5vh + 1vw, 1rem);
-}
 
 p{
     font-size: clamp(0.875rem, 2vh + 1vw, 1.25rem);
     /* font-size: calc(2vh + 1vw); */
-    
 }
 
+footer {
+    margin-top: 20vh;
+}
+
+/* For About/Home Page */
+
+
+.Intro_img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80vh;
+    width: 60vh;
+    
+}
 
 
 
@@ -126,6 +134,14 @@ p{
     height: 200px;
 }
 
+.placeholder_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 80vh;
+    width: 60vh;
+}
+
 /* For Contact Page */
 .contact_container{
     display: flex;
@@ -142,6 +158,14 @@ p{
     text-align: center;
     margin-top: 5vh;
     margin-bottom: 10vh;
+}
+
+.contact_reach h3{
+    font-size: clamp(1rem, 3vh + 1vw, 1.5rem);
+}
+
+.contact_reach h4{
+    font-size: clamp(0.875rem, 2.5vh + 1vw, 1rem);
 }
 
 .profile_pic{
