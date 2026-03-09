@@ -1,7 +1,7 @@
 /* For all pages */
 body {
   font-family: serif;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(248, 245, 245, 0.9);
 }
 
 header{
@@ -74,7 +74,7 @@ header, footer {
 }
 
 h1, h2, h3, h4, h5, p{
-    color: #dbdbdb;
+    color: #030303;
 }
 
 h1 {
